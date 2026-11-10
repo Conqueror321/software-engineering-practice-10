@@ -1,0 +1,35 @@
+$ browse viewport 1440x1000
+Viewport set to 1440x1000
+EXIT_CODE=0
+
+$ browse goto http://127.0.0.1:5190/
+Navigated to http://127.0.0.1:5190/ (200)
+EXIT_CODE=0
+
+$ browse fill input[type="datetime-local"] >> nth=1 2026-10-27T11:00
+Filled input[type="datetime-local"] >> nth=1
+EXIT_CODE=0
+
+$ browse press Enter
+Pressed Enter
+EXIT_CODE=0
+
+$ browse js JSON.stringify({status:document.querySelector("[role=status]")?.textContent ?? null, forms:document.forms.length})
+{"status":null,"forms":0}
+EXIT_CODE=0
+
+$ browse click button
+Clicked button → now at http://127.0.0.1:5190/
+EXIT_CODE=0
+
+$ browse screenshot /Users/dastan/Documents/study/kbtu/Software_Engineering_Practice_10/screenshots/before-desktop.png
+Screenshot saved: /Users/dastan/Documents/study/kbtu/Software_Engineering_Practice_10/screenshots/before-desktop.png
+EXIT_CODE=0
+
+$ browse viewport 390x844
+Viewport set to 390x844
+EXIT_CODE=0
+
+$ browse screenshot /Users/dastan/Documents/study/kbtu/Software_Engineering_Practice_10/screenshots/before-mobile.png
+Screenshot saved: /Users/dastan/Documents/study/kbtu/Software_Engineering_Practice_10/screenshots/before-mobile.png
+EXIT_CODE=0
