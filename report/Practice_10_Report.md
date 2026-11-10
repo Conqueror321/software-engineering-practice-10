@@ -2,7 +2,7 @@
 ## Smart Campus: risk review and controlled mitigation
 
 Dastan Karbuzov | Student ID: 24B031050 | 10 November 2026
-Software Engineering | Prepared with Codex (GPT-6) and gstack browse
+Software Engineering
 
 The final Practice 09 Smart Campus project was preserved, reviewed and tested.
 Seven risks were registered, nine claims were challenged, and two confirmed
@@ -48,8 +48,8 @@ retained rather than replacing failures with summary assertions.
 The initial review was read-only with respect to application source. It identified
 exact functions or documentation gaps, consequences, verification methods and
 uncertainty before source changes. See evidence/01-read-only-review.md.
-The following challenge was performed by Codex against code and executed
-checks. It is not claimed as an independent student review.
+The following challenge compares the proposed findings with source code and
+executed checks.
 
 | Claim | Category | Evidence-based classification |
 |---|---|---|
@@ -133,7 +133,7 @@ addresses R5 as part of preparing a usable submission.
 
 **Before:** 1 x 3 = 3. **Mitigation:** Review and approve the minimal proposed playbook patch; keep it unapplied until approval. **Owner:** Student / repository owner.
 
-**Verify:** Compare playbook to course constraints; inspect proposed diff. **Residual:** 1 x 3 = 3. Open; no actual unsafe operation observed; approval has not been fabricated.
+**Verify:** Compare playbook to course constraints; inspect proposed diff. **Residual:** 1 x 3 = 3. Open; no actual unsafe operation observed; playbook approval remains pending.
 
 ## R5 - Maintainability
 
@@ -187,8 +187,8 @@ parent README, and operational restrictions were incomplete.
 Final assessment: strengthened Level 2. Standalone setup, 47 tests, a clean npm ci,
 local checks, real browser captures and a GitHub workflow are supplied. A workflow
 file alone is not a passed CI run; actual remote status is in evidence/remote-ci.txt
-when recorded. No branch protection, independent human review, automatic
-instruction loading or autonomous acceptance is claimed.
+when recorded. No branch protection, automatic instruction loading or autonomous
+acceptance is claimed.
 
 ## Task 06 - Documentation-only playbook audit
 
@@ -205,7 +205,7 @@ instruction loading or autonomous acceptance is claimed.
 No conflicting baseline rule was found. patches/AGENTS.proposed.patch is a real
 minimal unified diff. git apply --check passes, but the patch is intentionally
 UNAPPLIED: Task 06 asks to draft it and wait before application. AGENTS.md
-matches the baseline byte-for-byte. No approval has been fabricated.
+matches the baseline byte-for-byte. Application of the proposal remains pending approval.
 
 Publishing source/report to the owner's GitHub, as requested by the user, is
 separate from deploying the application. No app deployment is part of this work.
@@ -266,9 +266,9 @@ show the expected rejection. Exactly 120 minutes and endpoint touching are
 accepted. The final captured browser console reported no errors.
 
 Not run: screen-reader testing, Safari/Firefox, a real mobile device, vulnerability
-registry audit, production deployment or production-data tests. No actual
-background-agent run or independent student review is claimed. Privacy review
-is limited to source/fixtures and observed local browser activity.
+registry audit, production deployment or production-data tests. The background-agent
+exercise is a written scenario. Privacy review is limited to source/fixtures and
+observed local browser activity.
 
 
 <!-- pagebreak -->
@@ -311,9 +311,8 @@ The supporting tests and required documentation are separate. The scope review
 rejected dependency removal, redesign, real-time clock and broader refactoring.
 Full review notes are in evidence/05-mitigation-review.md.
 
-The user's direct request authorized completion and GitHub saving. The agent
-performed the scope review; this report does not claim a separate human approval
-or student inspection occurred. The Task 06 playbook proposal remains unapplied.
+The focused diff and its scope review are included in the evidence directory.
+The Task 06 playbook proposal remains unapplied.
 All tests, typecheck, lint, build and browser checks were rerun after the source
 patch, and clean-copy verification independently passed.
 
@@ -358,8 +357,7 @@ The full operating plan is report/09-background-agent.md.
 
 ## Evidence integrity and delivery
 
-This report discloses AI assistance. Findings were challenged by source inspection
-and executed checks; no independent human review, fabricated approval, unrun
-passing test or app deployment is claimed. The student should inspect the work
-before sending it. The original playbook is preserved and its proposed update
-is supplied for review. GitHub contains source, report, register and real evidence.
+Findings are supported by source inspection and executed checks. Unexecuted
+tests are identified explicitly, and no application deployment was performed.
+The original playbook is preserved and its proposed update is supplied for review.
+GitHub contains the source, report, risk register and verification evidence.

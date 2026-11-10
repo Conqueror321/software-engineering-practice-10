@@ -17,7 +17,6 @@ or the playbook. The separate two-risk mitigation is recorded elsewhere.
 
 No conflicting baseline rule was found. The proposed patch adds only the missing
 boundaries and acceptance gate. `patches/AGENTS.proposed.patch` is a real unified
-diff, validated with `git apply --check`, and is **NOT applied**. The student's
-approval has not been invented. Leaving it as a draft follows Task 06's explicit
-request to draft first and wait before applying. It is not necessary to change
-this file to deliver the two source fixes authorized by the user's request.
+diff, validated with `git apply --check`, and is **NOT applied**. Approval remains
+pending. Leaving it as a draft follows Task 06's explicit requirement to draft
+first and wait before applying.

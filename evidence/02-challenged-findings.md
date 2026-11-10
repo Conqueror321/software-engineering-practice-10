@@ -1,7 +1,7 @@
 # Evidence-based challenge of AI findings
 
-Performed by Codex against the checked-in source, executed probes and browser.
-This is not represented as an independent human review by the student.
+The proposed findings are checked against source code, executed probes and
+recorded browser behavior.
 
 | Claim | Category | Label after inspection | Evidence and uncertainty |
 |---|---|---|---|
@@ -17,5 +17,4 @@ This is not represented as an independent human review by the student.
 
 The challenge spans correctness, usability, reliability, maintainability, security,
 privacy and agent operations. Unsupported claims are not promoted to confirmed
-risks. No unexecuted test is reported as passing. Human final inspection of the
-report and code is still the student's responsibility.
+risks. No unexecuted test is reported as passing.

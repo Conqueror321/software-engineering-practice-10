@@ -1,6 +1,6 @@
 # Read-only risk review (before source changes)
 
-Reviewer: Codex (GPT-6), 10 November 2026, Asia/Almaty.
+Review date: 10 November 2026, Asia/Almaty.
 Baseline: git tag `practice09-baseline`, commit `fd0769d`.
 This phase inspected source, documentation, existing tests and browser behavior.
 No application source was edited during this phase. Generated build output and

@@ -95,7 +95,7 @@ refactor or dependency removal was made.
 
 **Verification method:** Compare playbook to course constraints; inspect proposed diff
 
-**Residual assessment:** Open; no actual unsafe operation observed; approval has not been fabricated.
+**Residual assessment:** Open; no actual unsafe operation observed; playbook approval remains pending.
 
 
 ## R5: Maintainability

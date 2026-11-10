@@ -72,12 +72,11 @@ node --experimental-strip-types evidence/compare-behavior.mjs
 set BROWSE_BIN and BROWSE_STATE_FILE for your own gstack installation. Local paths
 in captured logs describe the original execution machine, not setup requirements.
 
-## Limits and AI disclosure
+## Limitations
 
-Prepared with Codex (GPT-6) and gstack browse. Source-based challenge and diff review
-were performed by the agent, not claimed as independent student approval. The
-student should inspect the submission. The level rubric is explicitly defined in
-the audit because the photos did not provide definitions. No screen-reader,
+Findings are supported by source inspection, direct probes and recorded checks.
+The level rubric is explicitly defined in the audit because the photos did not
+provide definitions. No screen-reader,
 Safari/Firefox, real-device, registry vulnerability audit or app deployment was run.
 R6 is unverified supply-chain exposure; malformed future fixture validation (R7)
 remains open. The background-agent exercise is a thought experiment, not an

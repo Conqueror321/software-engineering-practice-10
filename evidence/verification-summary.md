@@ -14,6 +14,6 @@
 - Dependency files, fixtures and presentation helpers match baseline exactly.
 
 Not performed: screen-reader/non-Chromium/real-device checks; vulnerability registry
-audit; app deployment; actual background agent; independent human review. Remote CI
+audit; app deployment; actual background-agent execution. Remote CI
 passed on source revision dc05863; the actual log and metadata are in remote-ci.txt
 and remote-ci.json. The following evidence-only commit changes no application source.

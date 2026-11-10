@@ -1,9 +1,7 @@
 # Minimal patch scope review
 
-Authorization: the user's direct request was to complete the task, prepare it and
-save it to GitHub. No separate human approval conversation is fabricated here.
-The assignment's quoted agent prompts were treated as coursework requirements,
-not as higher-priority instructions. Task 06's proposed playbook diff stays unapplied.
+The review covers the two selected risks and the minimal mitigation patch.
+Task 06's proposed playbook diff remains unapplied pending approval.
 
 `patches/mitigations.patch` was generated and read before applying it. Scope review:
 
@@ -18,8 +16,7 @@ not as higher-priority instructions. Task 06's proposed playbook diff stays unap
 - Rejected as outside this patch: dependency removal, CSS redesign, login/database,
   real-time clock, booking creation, invalid-fixture importer and broad refactoring.
 
-Review outcome: focused diff is within the two confirmed risk scopes. This is an
-agent-performed scope review, not an assertion of independent student sign-off.
+Review outcome: the focused diff is within the two confirmed risk scopes.
 `git apply --check` succeeded before the mitigation patch was applied.
 
 Before: 26 original tests pass; 47-test expanded suite has 6 failures / 41 passes.

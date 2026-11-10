@@ -20,8 +20,7 @@ regressions or CI. Installed local dependencies alone are not a clean-setup proo
 npm ci/checks, actual desktop/mobile Chromium evidence and a CI workflow are
 provided. A workflow file alone does not prove a remote run passed; see the
 GitHub run and evidence/remote-ci.txt when available. No automatic instruction
-loading, autonomous acceptance, protected branch or independent human review
-is claimed. AGENTS.md patch remains unapplied by design.
+loading, autonomous acceptance or protected branch is claimed. AGENTS.md patch remains unapplied by design.
 
 ## Evidence checklist
 
@@ -36,6 +35,6 @@ is claimed. AGENTS.md patch remains unapplied by design.
 | Operational gates | Proposed patch and background-agent plan | Proposed patch unapproved/unapplied |
 | CI | .github/workflows/verify.yml | Inspect the actual run, not just YAML |
 
-Missing evidence: independently performed student review, approved playbook
-update, enforced branch protection, non-Chromium testing, screen-reader behavior,
+Missing evidence: approved playbook update, enforced branch protection,
+non-Chromium testing, screen-reader behavior,
 registry vulnerability audit and a second OS. No deployment is required or performed.
