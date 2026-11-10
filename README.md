@@ -4,6 +4,9 @@
 
 Smart Campus risk review, agent-readiness audit and two controlled mitigations.
 
+[GitHub verification passed](https://github.com/Conqueror321/software-engineering-practice-10/actions/runs/42880021124) on the verified source revision.
+[Download the complete submission ZIP](https://github.com/Conqueror321/software-engineering-practice-10/releases/download/practice-10-submission/Practice_10_Dastan_Karbuzov_24B031050_Submission.zip).
+
 [Read the PDF report](report/Practice_10_Report.pdf) ·
 [Editable report](report/Practice_10_Report.md) ·
 [Risk register](report/risk-register.md) ·

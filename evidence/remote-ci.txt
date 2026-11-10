@@ -1,0 +1,270 @@
+verify	Set up job	﻿2026-11-10T18:55:12.7397330Z Current runner version: '2.338.2'
+verify	Set up job	2026-11-10T18:55:12.7419680Z ##[group]Runner Image Provisioner
+verify	Set up job	2026-11-10T18:55:12.7420541Z Hosted Compute Agent
+verify	Set up job	2026-11-10T18:55:12.7421050Z Version: 20261028.624
+verify	Set up job	2026-11-10T18:55:12.7421576Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+verify	Set up job	2026-11-10T18:55:12.7422237Z Build Date: 2026-10-28T21:51:42Z
+verify	Set up job	2026-11-10T18:55:12.7422793Z Worker ID: {8945fe00-53cc-4e65-8caf-53d41e41c48c}
+verify	Set up job	2026-11-10T18:55:12.7423405Z Region: westus3
+verify	Set up job	2026-11-10T18:55:12.7423949Z Cloud: Azure
+verify	Set up job	2026-11-10T18:55:12.7424440Z ##[endgroup]
+verify	Set up job	2026-11-10T18:55:12.7425754Z ##[group]Operating System
+verify	Set up job	2026-11-10T18:55:12.7426282Z Ubuntu
+verify	Set up job	2026-11-10T18:55:12.7426924Z 24.04.5
+verify	Set up job	2026-11-10T18:55:12.7427800Z LTS
+verify	Set up job	2026-11-10T18:55:12.7428235Z ##[endgroup]
+verify	Set up job	2026-11-10T18:55:12.7428733Z ##[group]Runner Image
+verify	Set up job	2026-11-10T18:55:12.7429261Z Image: ubuntu-24.04
+verify	Set up job	2026-11-10T18:55:12.7429780Z Version: 20261101.360.1
+verify	Set up job	2026-11-10T18:55:12.7430720Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261101.360/images/ubuntu/Ubuntu2404-Readme.md
+verify	Set up job	2026-11-10T18:55:12.7432298Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261101.360
+verify	Set up job	2026-11-10T18:55:12.7433144Z ##[endgroup]
+verify	Set up job	2026-11-10T18:55:12.7434198Z ##[group]GITHUB_TOKEN Permissions
+verify	Set up job	2026-11-10T18:55:12.7435899Z Contents: read
+verify	Set up job	2026-11-10T18:55:12.7436431Z Metadata: read
+verify	Set up job	2026-11-10T18:55:12.7437191Z ##[endgroup]
+verify	Set up job	2026-11-10T18:55:12.7439422Z Secret source: Actions
+verify	Set up job	2026-11-10T18:55:12.7440272Z Cache mode: write
+verify	Set up job	2026-11-10T18:55:12.7441041Z Prepare workflow directory
+verify	Set up job	2026-11-10T18:55:12.7899016Z Prepare all required actions
+verify	Set up job	2026-11-10T18:55:12.7942068Z Getting action download info
+verify	Set up job	2026-11-10T18:55:13.0900653Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+verify	Set up job	2026-11-10T18:55:13.1733158Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+verify	Set up job	2026-11-10T18:55:13.3893685Z Complete job name: verify
+verify	Run actions/checkout@v4	﻿2026-11-10T18:55:13.4375056Z ##[group]Run actions/checkout@v4
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4375484Z with:
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4375780Z   repository: Conqueror321/software-engineering-practice-10
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4378121Z   token: ***
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4378347Z   ssh-strict: true
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4378578Z   ssh-user: git
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4378808Z   persist-credentials: true
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4379060Z   clean: true
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4379298Z   sparse-checkout-cone-mode: true
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4379571Z   fetch-depth: 1
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4379797Z   fetch-tags: false
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4380031Z   show-progress: true
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4380267Z   lfs: false
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4380482Z   submodules: false
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4380716Z   set-safe-directory: true
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4380985Z   allow-unsafe-pr-checkout: false
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.4381331Z ##[endgroup]
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6501159Z Syncing repository: Conqueror321/software-engineering-practice-10
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6508861Z ##[group]Getting Git version info
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6509953Z Working directory is '/home/runner/work/software-engineering-practice-10/software-engineering-practice-10'
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6510973Z [command]/usr/bin/git version
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6627321Z git version 2.56.0
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6640814Z ##[endgroup]
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6655301Z Temporarily overriding HOME='/home/runner/work/_temp/51c746b5-76c4-4b8c-bafe-ee67005c16fc' before making global git config changes
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6665520Z Adding repository directory to the temporary git global config as a safe directory
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6667264Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/software-engineering-practice-10/software-engineering-practice-10
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6738818Z Deleting the contents of '/home/runner/work/software-engineering-practice-10/software-engineering-practice-10'
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6740350Z ##[group]Initializing the repository
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6741462Z [command]/usr/bin/git init /home/runner/work/software-engineering-practice-10/software-engineering-practice-10
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6860435Z hint: Using 'master' as the name for the initial branch. This default branch name
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6863343Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6864342Z hint: to use in all of your new repositories, which will suppress this warning,
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6865473Z hint: call:
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6865954Z hint:
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6866524Z hint: 	git config --global init.defaultBranch <name>
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6867754Z hint:
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6868405Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6907207Z hint: 'development'. The just-created branch can be renamed via this command:
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6907989Z hint:
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6908396Z hint: 	git branch -m <name>
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6908837Z hint:
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6909447Z hint: Disable this message with "git config set advice.defaultBranchName false"
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6910775Z Initialized empty Git repository in /home/runner/work/software-engineering-practice-10/software-engineering-practice-10/.git/
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6934473Z [command]/usr/bin/git remote add origin https://github.com/Conqueror321/software-engineering-practice-10
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6977926Z ##[endgroup]
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6982827Z ##[group]Disabling automatic garbage collection
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.6983682Z [command]/usr/bin/git config --local gc.auto 0
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.7003024Z ##[endgroup]
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.7003765Z ##[group]Setting up auth
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.7006240Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.7064292Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.7462039Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.7499954Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.7691480Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.7730542Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.8012744Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.8046230Z ##[endgroup]
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.8047373Z ##[group]Fetching the repository
+verify	Run actions/checkout@v4	2026-11-10T18:55:13.8067914Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +dc05863be335879fbb2ec659f3763dfa5050aa45:refs/remotes/origin/main
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.4899746Z From https://github.com/Conqueror321/software-engineering-practice-10
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.4901443Z  * [new ref]         dc05863be335879fbb2ec659f3763dfa5050aa45 -> origin/main
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.4907872Z ##[endgroup]
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.4909111Z ##[group]Determining the checkout info
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.4910625Z ##[endgroup]
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.4914572Z [command]/usr/bin/git sparse-checkout disable
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.4966196Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.5005527Z ##[group]Checking out the ref
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.5018008Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.5148260Z Switched to a new branch 'main'
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.5154664Z branch 'main' set up to track 'origin/main'.
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.5188992Z ##[endgroup]
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.5223880Z [command]/usr/bin/git log -1 --format=%H
+verify	Run actions/checkout@v4	2026-11-10T18:55:14.5256641Z dc05863be335879fbb2ec659f3763dfa5050aa45
+verify	Run actions/setup-node@v4	﻿2026-11-10T18:55:14.5526840Z ##[group]Run actions/setup-node@v4
+verify	Run actions/setup-node@v4	2026-11-10T18:55:14.5527567Z with:
+verify	Run actions/setup-node@v4	2026-11-10T18:55:14.5528269Z   node-version: 22.23.2
+verify	Run actions/setup-node@v4	2026-11-10T18:55:14.5528866Z   cache: npm
+verify	Run actions/setup-node@v4	2026-11-10T18:55:14.5529520Z   cache-dependency-path: project/package-lock.json
+verify	Run actions/setup-node@v4	2026-11-10T18:55:14.5530351Z   always-auth: false
+verify	Run actions/setup-node@v4	2026-11-10T18:55:14.5530938Z   check-latest: false
+verify	Run actions/setup-node@v4	2026-11-10T18:55:14.5536870Z   token: ***
+verify	Run actions/setup-node@v4	2026-11-10T18:55:14.5537407Z ##[endgroup]
+verify	Run actions/setup-node@v4	2026-11-10T18:55:14.6481251Z Attempting to download 22.23.2...
+verify	Run actions/setup-node@v4	2026-11-10T18:55:14.6594284Z (node:1992) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+verify	Run actions/setup-node@v4	2026-11-10T18:55:14.6597155Z (Use `node --trace-deprecation ...` to show where the warning was created)
+verify	Run actions/setup-node@v4	2026-11-10T18:55:15.6895062Z Acquiring 22.23.2 - x64 from https://github.com/actions/node-versions/releases/download/22.23.2-30508424155/node-22.23.2-linux-x64.tar.gz
+verify	Run actions/setup-node@v4	2026-11-10T18:55:16.2321005Z Extracting ...
+verify	Run actions/setup-node@v4	2026-11-10T18:55:16.2437996Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/dcad9646-b1c3-4fa4-9ef9-b509e04795b0 -f /home/runner/work/_temp/b3447c6f-4034-45eb-822a-0abb4b8d2956
+verify	Run actions/setup-node@v4	2026-11-10T18:55:17.1577867Z Adding to the cache ...
+verify	Run actions/setup-node@v4	2026-11-10T18:55:21.9223876Z ##[group]Environment details
+verify	Run actions/setup-node@v4	2026-11-10T18:55:22.0915060Z node: v22.23.2
+verify	Run actions/setup-node@v4	2026-11-10T18:55:22.0915692Z npm: 10.9.8
+verify	Run actions/setup-node@v4	2026-11-10T18:55:22.0916239Z yarn: 1.22.22
+verify	Run actions/setup-node@v4	2026-11-10T18:55:22.0917165Z ##[endgroup]
+verify	Run actions/setup-node@v4	2026-11-10T18:55:22.0928095Z [command]/opt/hostedtoolcache/node/22.23.2/x64/bin/npm config get cache
+verify	Run actions/setup-node@v4	2026-11-10T18:55:22.1549261Z /home/runner/.npm
+verify	Run actions/setup-node@v4	2026-11-10T18:55:22.3955369Z npm cache is not found
+verify	Run npm ci --ignore-scripts	﻿2026-11-10T18:55:22.4123169Z ##[group]Run npm ci --ignore-scripts
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:22.4123402Z ^[[36;1mnpm ci --ignore-scripts^[[0m
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:22.4143347Z shell: /usr/bin/bash -e {0}
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:22.4143505Z ##[endgroup]
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:26.3005219Z 
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:26.3012442Z added 351 packages, and audited 352 packages in 4s
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:26.3013214Z 
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:26.3013541Z 82 packages are looking for funding
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:26.3014045Z   run `npm fund` for details
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:26.3137122Z 
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:26.3147317Z 13 vulnerabilities (1 low, 4 moderate, 8 high)
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:26.3161662Z 
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:26.3187242Z To address all issues, run:
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:26.3187685Z   npm audit fix
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:26.3192899Z 
+verify	Run npm ci --ignore-scripts	2026-11-10T18:55:26.3193190Z Run `npm audit` for details.
+verify	Run npm test -- --reporter=verbose	﻿2026-11-10T18:55:26.3572499Z ##[group]Run npm test -- --reporter=verbose
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:26.3572712Z ^[[36;1mnpm test -- --reporter=verbose^[[0m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:26.3589584Z shell: /usr/bin/bash -e {0}
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:26.3589785Z ##[endgroup]
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:26.4207932Z 
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:26.4208441Z > vite-react-typescript-starter@0.0.0 test
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:26.4209006Z > vitest run --reporter=verbose
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:26.4209382Z 
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:26.6597419Z 
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:26.6619064Z ^[[1m^[[30m^[[46m RUN ^[[49m^[[39m^[[22m ^[[36mv5.0.5 ^[[39m^[[90m/home/runner/work/software-engineering-practice-10/software-engineering-practice-10/project^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:26.6637093Z 
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.3819143Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mavailability^[[2m > ^[[22mrejects start >= end^[[32m 1^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.3842736Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mavailability^[[2m > ^[[22mrejects requests in the past^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.3862228Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mavailability^[[2m > ^[[22mrejects bookings longer than 120 minutes^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.3878455Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mavailability^[[2m > ^[[22mallows a booking of exactly 120 minutes^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.3897420Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mavailability^[[2m > ^[[22mrejects a blocked room^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.3927728Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mavailability^[[2m > ^[[22mrejects overlapping bookings^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.3963469Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mavailability^[[2m > ^[[22mallows bookings that touch only at endpoints^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.3990850Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mavailability^[[2m > ^[[22mallows a booking with no conflicts^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.4025976Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mavailability^[[2m > ^[[22mchecking availability must not modify booking data^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.4066653Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mavailability^[[2m > ^[[22mMAX_DURATION_MS is 120 minutes^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.4112522Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mregression: endpoint boundaries and booking data preservation^[[2m > ^[[22maccepts a request ending at the start of an existing booking^[[32m 1^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.4126276Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mregression: endpoint boundaries and booking data preservation^[[2m > ^[[22maccepts a request starting at the end of an existing booking^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.4149431Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mregression: endpoint boundaries and booking data preservation^[[2m > ^[[22mpreserves unsorted booking data and object identities for an available request^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:27.4187924Z  ^[[32m✓^[[39m src/lib/availability.test.ts^[[2m > ^[[22mregression: endpoint boundaries and booking data preservation^[[2m > ^[[22mpreserves unsorted booking data when an overlapping request is rejected^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.2142818Z  ^[[32m✓^[[39m src/App.test.tsx^[[2m > ^[[22mR2 / AC6: form submission and feedback^[[2m > ^[[22mprovides native form semantics and handles a submit without navigating^[[32m 36^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.2167860Z  ^[[32m✓^[[39m src/App.test.tsx^[[2m > ^[[22mR2 / AC6: form submission and feedback^[[2m > ^[[22mretains click submission and polite live feedback^[[32m 9^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.2172630Z  ^[[32m✓^[[39m src/App.test.tsx^[[2m > ^[[22mR2 / AC6: form submission and feedback^[[2m > ^[[22mshows exact feedback for 2026-10-27T10:30 to 2026-10-27T10:30^[[32m 10^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.2173982Z  ^[[32m✓^[[39m src/App.test.tsx^[[2m > ^[[22mR2 / AC6: form submission and feedback^[[2m > ^[[22mshows exact feedback for 2026-10-27T09:30 to 2026-10-27T10:30^[[32m 9^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.2206915Z  ^[[32m✓^[[39m src/App.test.tsx^[[2m > ^[[22mR2 / AC6: form submission and feedback^[[2m > ^[[22mshows exact feedback for 2026-10-27T12:00 to 2026-10-27T14:01^[[32m 8^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.2208294Z  ^[[32m✓^[[39m src/App.test.tsx^[[2m > ^[[22mR2 / AC6: form submission and feedback^[[2m > ^[[22mshows exact feedback for 2026-10-27T11:00 to 2026-10-27T11:15^[[32m 9^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.2212169Z  ^[[32m✓^[[39m src/App.test.tsx^[[2m > ^[[22mR2 / AC6: form submission and feedback^[[2m > ^[[22mshows exact feedback for  to 2026-10-27T11:00^[[32m 11^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.2237268Z  ^[[32m✓^[[39m src/App.test.tsx^[[2m > ^[[22mR2 / AC6: form submission and feedback^[[2m > ^[[22mclears stale success when date field 0 changes^[[32m 7^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.2548361Z  ^[[32m✓^[[39m src/App.test.tsx^[[2m > ^[[22mR2 / AC6: form submission and feedback^[[2m > ^[[22mclears stale success when date field 1 changes^[[32m 9^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.2587978Z  ^[[32m✓^[[39m src/App.test.tsx^[[2m > ^[[22mR2 / AC6: form submission and feedback^[[2m > ^[[22mclears stale success when the block flag changes and explains the rejection^[[32m 15^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.2589399Z  ^[[32m✓^[[39m src/App.test.tsx^[[2m > ^[[22mR2 / AC6: form submission and feedback^[[2m > ^[[22mpreserves the displayed booking list across repeated checks^[[32m 11^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.7652626Z  ^[[32m✓^[[39m src/lib/practice09.test.ts^[[2m > ^[[22mPractice 09 acceptance boundaries using actual demo fixtures^[[2m > ^[[22mAC1: rejects an equal interval with the exact reason^[[32m 2^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.7692462Z  ^[[32m✓^[[39m src/lib/practice09.test.ts^[[2m > ^[[22mPractice 09 acceptance boundaries using actual demo fixtures^[[2m > ^[[22mAC1: rejects a reversed interval with the exact reason^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.7694500Z  ^[[32m✓^[[39m src/lib/practice09.test.ts^[[2m > ^[[22mPractice 09 acceptance boundaries using actual demo fixtures^[[2m > ^[[22mAC1: rejects a request starting before now even when its end is future^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.7696050Z  ^[[32m✓^[[39m src/lib/practice09.test.ts^[[2m > ^[[22mPractice 09 acceptance boundaries using actual demo fixtures^[[2m > ^[[22mAC1/AC4: allows exactly now touching the previous booking end^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.7697550Z  ^[[32m✓^[[39m src/lib/practice09.test.ts^[[2m > ^[[22mPractice 09 acceptance boundaries using actual demo fixtures^[[2m > ^[[22mAC2: rejects exactly 121 minutes^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.7698889Z  ^[[32m✓^[[39m src/lib/practice09.test.ts^[[2m > ^[[22mPractice 09 acceptance boundaries using actual demo fixtures^[[2m > ^[[22mAC2/AC4: allows exactly 120 minutes ending at the next booking start^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.7700221Z  ^[[32m✓^[[39m src/lib/practice09.test.ts^[[2m > ^[[22mPractice 09 acceptance boundaries using actual demo fixtures^[[2m > ^[[22mAC3: rejects a blocked room for a valid non-conflicting interval^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.7701484Z  ^[[32m✓^[[39m src/lib/practice09.test.ts^[[2m > ^[[22mPractice 09 acceptance boundaries using actual demo fixtures^[[2m > ^[[22mAC4: rejects a one-minute overlap^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.7702789Z  ^[[32m✓^[[39m src/lib/practice09.test.ts^[[2m > ^[[22mPractice 09 acceptance boundaries using actual demo fixtures^[[2m > ^[[22mAC5: accepts deeply frozen unsorted data without altering it^[[32m 1^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.7703937Z  ^[[32m✓^[[39m src/lib/practice09.test.ts^[[2m > ^[[22mpresentation boundary^[[2m > ^[[22mretains all five clear feedback messages^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.7705018Z  ^[[32m✓^[[39m src/lib/practice09.test.ts^[[2m > ^[[22mpresentation boundary^[[2m > ^[[22mkeeps local datetime input values stable including zero padding^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:28.7706098Z  ^[[32m✓^[[39m src/lib/practice09.test.ts^[[2m > ^[[22mpresentation boundary^[[2m > ^[[22mretains the existing locale display behavior^[[32m 13^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2504734Z  ^[[32m✓^[[39m src/lib/practice10.test.ts^[[2m > ^[[22mR1: non-finite request and clock values fail closed^[[2m > ^[[22mrejects start=NaN^[[32m 2^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2524144Z  ^[[32m✓^[[39m src/lib/practice10.test.ts^[[2m > ^[[22mR1: non-finite request and clock values fail closed^[[2m > ^[[22mrejects start=Infinity^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2567920Z  ^[[32m✓^[[39m src/lib/practice10.test.ts^[[2m > ^[[22mR1: non-finite request and clock values fail closed^[[2m > ^[[22mrejects start=-Infinity^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2569189Z  ^[[32m✓^[[39m src/lib/practice10.test.ts^[[2m > ^[[22mR1: non-finite request and clock values fail closed^[[2m > ^[[22mrejects end=NaN^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2570354Z  ^[[32m✓^[[39m src/lib/practice10.test.ts^[[2m > ^[[22mR1: non-finite request and clock values fail closed^[[2m > ^[[22mrejects end=Infinity^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2571472Z  ^[[32m✓^[[39m src/lib/practice10.test.ts^[[2m > ^[[22mR1: non-finite request and clock values fail closed^[[2m > ^[[22mrejects end=-Infinity^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2572629Z  ^[[32m✓^[[39m src/lib/practice10.test.ts^[[2m > ^[[22mR1: non-finite request and clock values fail closed^[[2m > ^[[22mrejects now=NaN^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2573966Z  ^[[32m✓^[[39m src/lib/practice10.test.ts^[[2m > ^[[22mR1: non-finite request and clock values fail closed^[[2m > ^[[22mrejects now=Infinity^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2579236Z  ^[[32m✓^[[39m src/lib/practice10.test.ts^[[2m > ^[[22mR1: non-finite request and clock values fail closed^[[2m > ^[[22mrejects now=-Infinity^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2580478Z  ^[[32m✓^[[39m src/lib/practice10.test.ts^[[2m > ^[[22mR1: non-finite request and clock values fail closed^[[2m > ^[[22mstill accepts a finite request at exactly now^[[32m 0^[[2mms^[[22m^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2581423Z 
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2581929Z ^[[2m Test Files ^[[22m ^[[1m^[[32m4 passed^[[39m^[[22m^[[90m (4)^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2594888Z ^[[2m      Tests ^[[22m ^[[1m^[[32m47 passed^[[39m^[[22m^[[90m (47)^[[39m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2595508Z ^[[2m   Start at ^[[22m 18:55:26
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2596163Z ^[[2m   Duration ^[[22m 2.59s^[[2m (environment 75%, import 9%, tests 8%, transform 7%, worker 1%)^[[22m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2596591Z 
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2597318Z ^[[2m    Isolate ^[[22m ^[[33m4 workers spawned^[[39m^[[2m · ~502ms startup each (spawn + environment, per file)^[[22m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2598294Z ^[[2m            ^[[22m ^[[2mat least ~1.51s faster with ^[[22m^[[33misolate: false^[[39m^[[2m — reuses workers across files instead of one per file^[[22m
+verify	Run npm test -- --reporter=verbose	2026-11-10T18:55:29.2598811Z 
+verify	Run npm run typecheck	﻿2026-11-10T18:55:29.3044198Z ##[group]Run npm run typecheck
+verify	Run npm run typecheck	2026-11-10T18:55:29.3044399Z ^[[36;1mnpm run typecheck^[[0m
+verify	Run npm run typecheck	2026-11-10T18:55:29.3060408Z shell: /usr/bin/bash -e {0}
+verify	Run npm run typecheck	2026-11-10T18:55:29.3060546Z ##[endgroup]
+verify	Run npm run typecheck	2026-11-10T18:55:29.3656832Z 
+verify	Run npm run typecheck	2026-11-10T18:55:29.3657535Z > vite-react-typescript-starter@0.0.0 typecheck
+verify	Run npm run typecheck	2026-11-10T18:55:29.3658178Z > tsc --noEmit -p tsconfig.app.json
+verify	Run npm run typecheck	2026-11-10T18:55:29.3658477Z 
+verify	Run npm run lint	﻿2026-11-10T18:55:31.1458460Z ##[group]Run npm run lint
+verify	Run npm run lint	2026-11-10T18:55:31.1458643Z ^[[36;1mnpm run lint^[[0m
+verify	Run npm run lint	2026-11-10T18:55:31.1474427Z shell: /usr/bin/bash -e {0}
+verify	Run npm run lint	2026-11-10T18:55:31.1474568Z ##[endgroup]
+verify	Run npm run lint	2026-11-10T18:55:31.2071312Z 
+verify	Run npm run lint	2026-11-10T18:55:31.2071851Z > vite-react-typescript-starter@0.0.0 lint
+verify	Run npm run lint	2026-11-10T18:55:31.2072330Z > eslint .
+verify	Run npm run lint	2026-11-10T18:55:31.2072552Z 
+verify	Run npm run build	﻿2026-11-10T18:55:32.0139735Z ##[group]Run npm run build
+verify	Run npm run build	2026-11-10T18:55:32.0140022Z ^[[36;1mnpm run build^[[0m
+verify	Run npm run build	2026-11-10T18:55:32.0156032Z shell: /usr/bin/bash -e {0}
+verify	Run npm run build	2026-11-10T18:55:32.0156176Z ##[endgroup]
+verify	Run npm run build	2026-11-10T18:55:32.0867456Z 
+verify	Run npm run build	2026-11-10T18:55:32.0868203Z > vite-react-typescript-starter@0.0.0 build
+verify	Run npm run build	2026-11-10T18:55:32.0868775Z > vite build
+verify	Run npm run build	2026-11-10T18:55:32.0869080Z 
+verify	Run npm run build	2026-11-10T18:55:32.2415736Z ^[[36mvite v7.3.7 ^[[32mbuilding client environment for production...^[[36m^[[39m
+verify	Run npm run build	2026-11-10T18:55:32.4605796Z transforming...
+verify	Run npm run build	2026-11-10T18:55:33.8454477Z ^[[32m✓^[[39m 1567 modules transformed.
+verify	Run npm run build	2026-11-10T18:55:33.9107873Z rendering chunks...
+verify	Run npm run build	2026-11-10T18:55:33.9143160Z computing gzip size...
+verify	Run npm run build	2026-11-10T18:55:33.9195772Z ^[[2mdist/^[[22m^[[32mindex.html                 ^[[39m^[[1m^[[2m  0.71 kB^[[22m^[[1m^[[22m^[[2m │ gzip:  0.39 kB^[[22m
+verify	Run npm run build	2026-11-10T18:55:33.9196988Z ^[[2mdist/^[[22m^[[2massets/^[[22m^[[35mindex-DbSw3pSN.css  ^[[39m^[[1m^[[2m  9.79 kB^[[22m^[[1m^[[22m^[[2m │ gzip:  2.70 kB^[[22m
+verify	Run npm run build	2026-11-10T18:55:33.9217635Z ^[[2mdist/^[[22m^[[2massets/^[[22m^[[36mindex-fX958Phw.js   ^[[39m^[[1m^[[2m150.16 kB^[[22m^[[1m^[[22m^[[2m │ gzip: 48.73 kB^[[22m
+verify	Run npm run build	2026-11-10T18:55:33.9218180Z ^[[32m✓ built in 1.65s^[[39m
+verify	Post Run actions/setup-node@v4	﻿2026-11-10T18:55:33.9894824Z Post job cleanup.
+verify	Post Run actions/setup-node@v4	2026-11-10T18:55:34.0741459Z (node:2217) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+verify	Post Run actions/setup-node@v4	2026-11-10T18:55:34.0742481Z (Use `node --trace-deprecation ...` to show where the warning was created)
+verify	Post Run actions/setup-node@v4	2026-11-10T18:55:34.0914621Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/software-engineering-practice-10/software-engineering-practice-10 --files-from manifest.txt --use-compress-program zstdmt
+verify	Post Run actions/setup-node@v4	2026-11-10T18:55:34.5208093Z (node:2217) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+verify	Post Run actions/setup-node@v4	2026-11-10T18:55:35.5149016Z Sent 32112640 of 37259159 (86.2%), 30.6 MBs/sec
+verify	Post Run actions/setup-node@v4	2026-11-10T18:55:35.7044015Z Sent 37259159 of 37259159 (100.0%), 29.8 MBs/sec
+verify	Post Run actions/setup-node@v4	2026-11-10T18:55:35.9677968Z Cache saved with the key: node-cache-Linux-x64-npm-68cffd1afb4b6b76f160d84e89f417076211b05c8f9ec782b9764b3bea1163d8
+verify	Post Run actions/checkout@v4	﻿2026-11-10T18:55:35.9808087Z Post job cleanup.
+verify	Post Run actions/checkout@v4	2026-11-10T18:55:36.0400830Z [command]/usr/bin/git version
+verify	Post Run actions/checkout@v4	2026-11-10T18:55:36.0458633Z git version 2.56.0
+verify	Post Run actions/checkout@v4	2026-11-10T18:55:36.0478871Z Temporarily overriding HOME='/home/runner/work/_temp/c77fce37-a710-428b-a764-057bf9fef2cd' before making global git config changes
+verify	Post Run actions/checkout@v4	2026-11-10T18:55:36.0479878Z Adding repository directory to the temporary git global config as a safe directory
+verify	Post Run actions/checkout@v4	2026-11-10T18:55:36.0481108Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/software-engineering-practice-10/software-engineering-practice-10
+verify	Post Run actions/checkout@v4	2026-11-10T18:55:36.0587462Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+verify	Post Run actions/checkout@v4	2026-11-10T18:55:36.0637691Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+verify	Post Run actions/checkout@v4	2026-11-10T18:55:36.0929016Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verify	Post Run actions/checkout@v4	2026-11-10T18:55:36.0997433Z http.https://github.com/.extraheader
+verify	Post Run actions/checkout@v4	2026-11-10T18:55:36.1037576Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+verify	Post Run actions/checkout@v4	2026-11-10T18:55:36.1075858Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+verify	Post Run actions/checkout@v4	2026-11-10T18:55:36.1276272Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+verify	Post Run actions/checkout@v4	2026-11-10T18:55:36.1312840Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+verify	Complete job	﻿2026-11-10T18:55:36.1621208Z Cleaning up orphan processes
+verify	Complete job	2026-11-10T18:55:36.1833718Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
