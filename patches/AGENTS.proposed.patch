@@ -1,0 +1,18 @@
+--- a/project/AGENTS.md
++++ b/project/AGENTS.md
+@@ -37,3 +37,15 @@
+ Record exact output, changed files and limitations. Do not invent Bolt responses,
+ publication, independent experiments, automatic instruction loading or test results.
+ Read this file explicitly before editing; do not assume any agent automatically loads it.
++
++## Proposed Practice 10 operational gates
++Use fictional fixtures only. Do not read, create, log or publish secrets, credentials,
++tokens, environment files or real personal booking data.
++Do not deploy the application to any external service. Publishing the source and
++report to the owner's GitHub for coursework is a separate, explicitly authorized
++submission action; it does not authorize application deployment.
++Before proposing acceptance, run tests, typecheck, lint and build; attach exact
++outputs, exit codes, the focused diff and any checks not run. A failure blocks acceptance.
++Review the diff against AC1-AC6 and the task allowlist before applying changes.
++Require the owner's review and approval before merging a background-agent branch.
++Keep background work isolated and bounded as specified in report/09-background-agent.md.

@@ -1,0 +1,9 @@
+Execution date: 10 November 2026 (Asia/Almaty)
+OS: macOS
+Node: v22.23.2
+npm: 10.9.8
+Baseline: fd0769d (practice09-baseline)
+Original source: existing final Practice 09 export
+Baseline/UI dependencies: ignored local node_modules links
+Clean verification: isolated fresh installation, no links
+Browser: real Chromium through gstack browse

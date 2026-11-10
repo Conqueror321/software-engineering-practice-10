@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, type FormEvent } from 'react';
 import { CalendarClock, CheckCircle2, XCircle, Clock, DoorClosed } from 'lucide-react';
 import {
   isAvailable,
@@ -26,7 +26,8 @@ function App() {
     [bookings]
   );
 
-  function handleCheck() {
+  function handleCheck(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
     const start = new Date(startTime).getTime();
     const end = new Date(endTime).getTime();
     setResult(isAvailable({ start, end, now: NOW, bookings, roomBlocked }));
@@ -53,7 +54,7 @@ function App() {
           </div>
         </header>
 
-        <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+        <form onSubmit={handleCheck} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
           <div className="mb-5 flex items-center gap-2 text-slate-700">
             <DoorClosed className="h-5 w-5 text-sky-600" />
             <div>
@@ -102,7 +103,7 @@ function App() {
           </label>
 
           <button
-            onClick={handleCheck}
+            type="submit"
             className="mt-5 w-full rounded-lg bg-sky-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-sky-700 active:bg-sky-800 sm:w-auto"
           >
             Check availability
@@ -136,7 +137,7 @@ function App() {
               </div>
             </div>
           )}
-        </section>
+        </form>
 
         <section className="mt-6 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
           <h2 className="mb-3 text-sm font-semibold text-slate-700">Existing bookings today</h2>

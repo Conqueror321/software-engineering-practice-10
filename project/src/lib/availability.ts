@@ -29,7 +29,7 @@ export const MAX_DURATION_MS = 120 * 60 * 1000;
 export function isAvailable(input: AvailabilityInput): AvailabilityResult {
   const { start, end, now, bookings, roomBlocked = false } = input;
 
-  if (!(start < end)) {
+  if (!Number.isFinite(start) || !Number.isFinite(end) || !Number.isFinite(now) || !(start < end)) {
     return { available: false, reason: 'invalid_range' };
   }
 

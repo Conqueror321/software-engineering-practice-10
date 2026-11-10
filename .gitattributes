@@ -1,0 +1,4 @@
+*.pdf binary
+*.png binary
+*.patch whitespace=-blank-at-eol,-blank-at-eof
+*.diff whitespace=-blank-at-eol,-blank-at-eof

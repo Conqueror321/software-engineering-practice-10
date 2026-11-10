@@ -1,0 +1,63 @@
+$ npm test -- --reporter=verbose
+
+> vite-react-typescript-starter@0.0.0 test
+> vitest run --reporter=verbose
+
+
+ RUN  v5.0.5 /private/var/folders/q5/8tlcsmnd7rlgjmhqbnmbmcvc0000gn/T/practice10-clean-8j01pvtq/project
+
+ ✓ src/lib/practice10.test.ts > R1: non-finite request and clock values fail closed > rejects start=NaN 1ms
+ ✓ src/lib/practice10.test.ts > R1: non-finite request and clock values fail closed > rejects start=Infinity 0ms
+ ✓ src/lib/practice10.test.ts > R1: non-finite request and clock values fail closed > rejects start=-Infinity 0ms
+ ✓ src/lib/practice10.test.ts > R1: non-finite request and clock values fail closed > rejects end=NaN 0ms
+ ✓ src/lib/practice10.test.ts > R1: non-finite request and clock values fail closed > rejects end=Infinity 0ms
+ ✓ src/lib/practice10.test.ts > R1: non-finite request and clock values fail closed > rejects end=-Infinity 0ms
+ ✓ src/lib/practice10.test.ts > R1: non-finite request and clock values fail closed > rejects now=NaN 0ms
+ ✓ src/lib/practice10.test.ts > R1: non-finite request and clock values fail closed > rejects now=Infinity 0ms
+ ✓ src/lib/practice10.test.ts > R1: non-finite request and clock values fail closed > rejects now=-Infinity 0ms
+ ✓ src/lib/practice10.test.ts > R1: non-finite request and clock values fail closed > still accepts a finite request at exactly now 0ms
+ ✓ src/lib/availability.test.ts > availability > rejects start >= end 1ms
+ ✓ src/lib/availability.test.ts > availability > rejects requests in the past 0ms
+ ✓ src/lib/availability.test.ts > availability > rejects bookings longer than 120 minutes 0ms
+ ✓ src/lib/availability.test.ts > availability > allows a booking of exactly 120 minutes 0ms
+ ✓ src/lib/availability.test.ts > availability > rejects a blocked room 0ms
+ ✓ src/lib/availability.test.ts > availability > rejects overlapping bookings 0ms
+ ✓ src/lib/availability.test.ts > availability > allows bookings that touch only at endpoints 0ms
+ ✓ src/lib/availability.test.ts > availability > allows a booking with no conflicts 0ms
+ ✓ src/lib/availability.test.ts > availability > checking availability must not modify booking data 0ms
+ ✓ src/lib/availability.test.ts > availability > MAX_DURATION_MS is 120 minutes 0ms
+ ✓ src/lib/availability.test.ts > regression: endpoint boundaries and booking data preservation > accepts a request ending at the start of an existing booking 0ms
+ ✓ src/lib/availability.test.ts > regression: endpoint boundaries and booking data preservation > accepts a request starting at the end of an existing booking 0ms
+ ✓ src/lib/availability.test.ts > regression: endpoint boundaries and booking data preservation > preserves unsorted booking data and object identities for an available request 0ms
+ ✓ src/lib/availability.test.ts > regression: endpoint boundaries and booking data preservation > preserves unsorted booking data when an overlapping request is rejected 0ms
+ ✓ src/lib/practice09.test.ts > Practice 09 acceptance boundaries using actual demo fixtures > AC1: rejects an equal interval with the exact reason 1ms
+ ✓ src/lib/practice09.test.ts > Practice 09 acceptance boundaries using actual demo fixtures > AC1: rejects a reversed interval with the exact reason 0ms
+ ✓ src/lib/practice09.test.ts > Practice 09 acceptance boundaries using actual demo fixtures > AC1: rejects a request starting before now even when its end is future 0ms
+ ✓ src/lib/practice09.test.ts > Practice 09 acceptance boundaries using actual demo fixtures > AC1/AC4: allows exactly now touching the previous booking end 0ms
+ ✓ src/lib/practice09.test.ts > Practice 09 acceptance boundaries using actual demo fixtures > AC2: rejects exactly 121 minutes 0ms
+ ✓ src/lib/practice09.test.ts > Practice 09 acceptance boundaries using actual demo fixtures > AC2/AC4: allows exactly 120 minutes ending at the next booking start 0ms
+ ✓ src/lib/practice09.test.ts > Practice 09 acceptance boundaries using actual demo fixtures > AC3: rejects a blocked room for a valid non-conflicting interval 0ms
+ ✓ src/lib/practice09.test.ts > Practice 09 acceptance boundaries using actual demo fixtures > AC4: rejects a one-minute overlap 0ms
+ ✓ src/lib/practice09.test.ts > Practice 09 acceptance boundaries using actual demo fixtures > AC5: accepts deeply frozen unsorted data without altering it 1ms
+ ✓ src/lib/practice09.test.ts > presentation boundary > retains all five clear feedback messages 0ms
+ ✓ src/lib/practice09.test.ts > presentation boundary > keeps local datetime input values stable including zero padding 0ms
+ ✓ src/lib/practice09.test.ts > presentation boundary > retains the existing locale display behavior 9ms
+ ✓ src/App.test.tsx > R2 / AC6: form submission and feedback > provides native form semantics and handles a submit without navigating 28ms
+ ✓ src/App.test.tsx > R2 / AC6: form submission and feedback > retains click submission and polite live feedback 6ms
+ ✓ src/App.test.tsx > R2 / AC6: form submission and feedback > shows exact feedback for 2026-10-27T10:30 to 2026-10-27T10:30 6ms
+ ✓ src/App.test.tsx > R2 / AC6: form submission and feedback > shows exact feedback for 2026-10-27T09:30 to 2026-10-27T10:30 5ms
+ ✓ src/App.test.tsx > R2 / AC6: form submission and feedback > shows exact feedback for 2026-10-27T12:00 to 2026-10-27T14:01 5ms
+ ✓ src/App.test.tsx > R2 / AC6: form submission and feedback > shows exact feedback for 2026-10-27T11:00 to 2026-10-27T11:15 4ms
+ ✓ src/App.test.tsx > R2 / AC6: form submission and feedback > shows exact feedback for  to 2026-10-27T11:00 5ms
+ ✓ src/App.test.tsx > R2 / AC6: form submission and feedback > clears stale success when date field 0 changes 4ms
+ ✓ src/App.test.tsx > R2 / AC6: form submission and feedback > clears stale success when date field 1 changes 4ms
+ ✓ src/App.test.tsx > R2 / AC6: form submission and feedback > clears stale success when the block flag changes and explains the rejection 5ms
+ ✓ src/App.test.tsx > R2 / AC6: form submission and feedback > preserves the displayed booking list across repeated checks 5ms
+
+ Test Files  4 passed (4)
+      Tests  47 passed (47)
+   Start at  23:43:59
+   Duration  667ms (environment 84%, transform 7%, tests 5%, import 4%, worker 1%)
+
+
+EXIT_CODE=0

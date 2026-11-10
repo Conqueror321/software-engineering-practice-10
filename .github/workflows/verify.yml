@@ -1,0 +1,24 @@
+name: Verify Smart Campus
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: project
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.23.2'
+          cache: npm
+          cache-dependency-path: project/package-lock.json
+      - run: npm ci --ignore-scripts
+      - run: npm test -- --reporter=verbose
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run build

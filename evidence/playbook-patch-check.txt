@@ -1,0 +1,3 @@
+$ git apply --check patches/AGENTS.proposed.patch
+EXIT_CODE=0
+APPLIED=false

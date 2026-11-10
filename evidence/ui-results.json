@@ -1,0 +1,117 @@
+[
+  {
+    "check": "before: Enter produces no feedback (R2 reproduction)",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "before: desktop has no horizontal overflow",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "before: mobile has no horizontal overflow",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: Enter produces Available",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: desktop has no horizontal overflow",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: mobile has no horizontal overflow",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: edits clear stale feedback (10:30/10:30)",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: 10:30/10:30: End time must be after the start time.",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: edits clear stale feedback (10:45/10:30)",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: 10:45/10:30: End time must be after the start time.",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: edits clear stale feedback (09:30/10:30)",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: 09:30/10:30: That time is already in the past.",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: edits clear stale feedback (12:00/14:01)",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: 12:00/14:01: Bookings can be at most 2 hours long.",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: edits clear stale feedback (11:00/11:15)",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: 11:00/11:15: That time overlaps an existing booking.",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: edits clear stale feedback (12:00/14:00)",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: 12:00/14:00: Available",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: edits clear stale feedback (11:30/12:00)",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: 11:30/12:00: Available",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: block toggle clears stale feedback",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: blocked message",
+    "passed": true,
+    "observed": "true"
+  },
+  {
+    "check": "after: polite status region",
+    "passed": true,
+    "observed": "true"
+  }
+]

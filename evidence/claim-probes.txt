@@ -1,0 +1,13 @@
+$ node --experimental-strip-types --input-type=module -
+import {isAvailable as before} from './before/src/lib/availability.ts';
+import {isAvailable as after} from './project/src/lib/availability.ts';
+const valid={start:100,end:200,now:50,bookings:[]};
+for (const now of [NaN,-Infinity,Infinity]) console.log(JSON.stringify({probe:'invalid clock',now:String(now),before:before({...valid,now}),after:after({...valid,now})}));
+const malformed={...valid,bookings:[{id:'malformed',start:NaN,end:200,owner:'Fictional'}]};
+console.log(JSON.stringify({probe:'malformed booking (R7 remains)',before:before(malformed),after:after(malformed)}));
+
+{"probe":"invalid clock","now":"NaN","before":{"available":true},"after":{"available":false,"reason":"invalid_range"}}
+{"probe":"invalid clock","now":"-Infinity","before":{"available":true},"after":{"available":false,"reason":"invalid_range"}}
+{"probe":"invalid clock","now":"Infinity","before":{"available":false,"reason":"in_past"},"after":{"available":false,"reason":"invalid_range"}}
+{"probe":"malformed booking (R7 remains)","before":{"available":true},"after":{"available":true}}
+EXIT_CODE=0
